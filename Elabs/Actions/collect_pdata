@@ -1,0 +1,9 @@
+<?php
+$firstitem =$_GET['hello'];
+$second=$_GET['no'];
+$choice= $_GET['choose'];
+$submit =$_GET['submit'];
+
+echo "$choice";
+
+?>

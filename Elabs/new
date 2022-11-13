@@ -1,0 +1,22 @@
+<?php
+//checking if the user is logged in.
+if (LOGGED_IN() == false){
+?>
+    <button type="button" onclick = "document.location= 'Login/register.php'"><b>Register</b></button> 
+| 
+    <button type="button" onclick = "document.location= 'Login/login.php'"><b>Login</b></button>
+|
+    <button type="button" onclick = "document.location= 'Admin/Brand.php'"><b>Brand</b></button>
+
+|
+<button type="button" onclick = "document.location= 'Admin/Category.php'"><b>Category</b></button><?php } 
+
+else{ ?> 
+| 
+<button type="button" onclick = "document.location= 'Login/register.php'"><b>Register</b></button>	
+| 
+
+=
+
+ 
+        <?php }?>
